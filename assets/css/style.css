@@ -1,0 +1,77 @@
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins&display=swap');
+
+/* Body styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('/assets/images/background-image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container Styles */
+.container {
+  width: 600px;
+  padding: 20px;
+  margin-top: 0; 
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+/* Heading Styles */
+h1 {
+  text-align: center;
+}
+
+/* Question Styles */
+.question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Option Styles*/ 
+.option {
+  margin-bottom: 20px;
+}
+
+.option {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Button Styles */
+.button {
+  display: block; 
+  margin: 0 auto; 
+  padding: 10px 20px;
+  background-color: #428bca;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+/* Hover effect for button */
+.button:hover {
+  background-color: #3071a9;
+}
+
+/* Result Styles */
+.result {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+/* Hide Class */ 
+.hide{
+  display: none;
+}
