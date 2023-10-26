@@ -1,76 +1,77 @@
 /* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins&display=swap');
 
+
 /* Body styles */
 body {
-  font-family: 'Poppins', sans-serif;
-  background-image: url('../images/background-photo.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../images/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
 }
 
-/* Container Styles */
+/* Container styles */
 .container {
-  width: 600px;
-  padding: 20px;
-  margin-top: 0; 
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
+    text-align: center;
+    width: 700px;
+    padding: 25px;
+    background-color: #FFFDFB;
+    margin-top: 30px;
+    box-shadow: 0 2px 3px rgb(rgb(255, 214, 164));
+    border-radius: 15px;
 }
 
-/* Heading Styles */
+/* Heading styles*/
 h1 {
-  text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #0881A3;
+    font-weight: bold;
+    text-align: center;
 }
 
-/* Question Styles */
+/* Question styles */
 .question {
-  font-weight: bold;
-  margin-bottom: 10px;
+    color: #f49c31;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
-/* Option Styles*/ 
+/* Option styles */
 .option {
-  margin-bottom: 20px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 12px;
 }
 
-.option {
-  display: block;
-  margin-bottom: 10px;
-}
-
-/* Button Styles */
+/* Button styles */
 .button {
-  display: block; 
-  margin: 0 auto; 
-  padding: 10px 20px;
-  background-color: #428bca;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  border-radius: 4px;
-  transition: background-color 0.3s;
-  margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #0881A3;
+    color: #FFFDFB;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
 }
 
 /* Hover effect for button */
 .button:hover {
-  background-color: #3071a9;
+    background-color: #276396;
 }
-/* Result Styles */
+
+/* Results styles */
 .result {
-  text-align: center;
-  margin-top: 20px;
-  font-weight: bold;
+    text-align: center;
 }
-/* Hide Class */ 
-.hide{
-  display: none;
+
+/* Hide Class */
+.hide {
+    display: none;
 }
